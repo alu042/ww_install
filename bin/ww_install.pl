@@ -66,7 +66,7 @@ use constant IPC_CMD_VERBOSE => 1;    #Controls whether all output of a command
 #
 ###################################################################
 
-use constant WEBWORK2_REPO => 'https://github.com/openwebwork/webwork2.git';
+use constant WEBWORK2_REPO => 'https://github.com/alu042/webwork-akademix.git';
 use constant PG_REPO       => 'https://github.com/openwebwork/pg.git';
 use constant OPL_REPO =>
   'https://github.com/openwebwork/webwork-open-problem-library.git';
@@ -83,7 +83,7 @@ use constant WW_DB     => 'webwork';
 use constant WWDB_USER => 'webworkWrite';
 
 use constant CHECKOUT_BRANCH => 0;
-use constant WW_BRANCH => 'master';
+use constant WW_BRANCH => 'dev';
 use constant PG_BRANCH => 'master';
 
 use constant SKIP_INSTALL_PREREQUISITES => 0;
